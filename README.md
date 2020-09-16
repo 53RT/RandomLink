@@ -2,7 +2,7 @@
 
 # RandomLink
 **Avoiding Linkage-Effects by employing Random Effects for Clustering**
-| [Link to Paper](http://www.dexa.org/dexa2020)
+| [Link to Paper](https://doi.org/10.1007/978-3-030-59003-1_15)
 
 >**Abstract.** We present here a new parameter-free clustering algorithm
 that does not impose any assumptions on the data. Based solely on the
@@ -77,11 +77,26 @@ to point on your dataset to cluster it. Make sure your dataset uses the same for
 
 If you use our work, please cite our paper:
 
-    @inproceedings{cs6415,
-              author = {Gert Sluiter and Benjamin Schelling and Claudia Plant},
-               month = {September},
-           booktitle = {31st International Conference on Database and Expert Systems Applications},
-               title = {RandomLink - Avoiding Linkage-Effects by employing Random Effects for Clustering},
-                year = {2020},
-                 url = {http://eprints.cs.univie.ac.at/6415/}
-    }
+    @inproceedings{DBLP:conf/dexa/SluiterSP20,
+	  author    = {Gert Sluiter and
+		           Benjamin Schelling and
+		           Claudia Plant},
+	  editor    = {Sven Hartmann and
+		           Josef K{\"{u}}ng and
+		           Gabriele Kotsis and
+		           A Min Tjoa and
+		           Ismail Khalil},
+	  title     = {RandomLink - Avoiding Linkage-Effects by Employing Random Effects
+		           for Clustering},
+	  booktitle = {Database and Expert Systems Applications - 31st International Conference,
+		           {DEXA} 2020, Bratislava, Czech Republic, September 14-17, 2020, Proceedings,
+		           Part {I}},
+	  series    = {Lecture Notes in Computer Science},
+	  volume    = {12391},
+	  pages     = {217--232},
+	  publisher = {Springer},
+	  year      = {2020},
+	  url       = {https://doi.org/10.1007/978-3-030-59003-1\_15},
+	  doi       = {10.1007/978-3-030-59003-1\_15},
+	  biburl    = {https://dblp.org/rec/conf/dexa/SluiterSP20.bib}
+	}
